@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 import app from './app';
 
 // Server
-const port = process.env.PORT || 9000;
-const MONGO_URL = 'mongodb+srv://julian:julian@cvcluster01.lg4dm.mongodb.net/?retryWrites=true&w=majority';;
+const port = process.env.PORT || 9000; //DOTENV NOT INCLUDED
+const MONGO_URL = 'mongodb+srv://julian:julian@cvcluster01.lg4dm.mongodb.net/?retryWrites=true&w=majority'; //DOTENV NOT INCLUDED
 
 mongoose.connect(
   MONGO_URL,
