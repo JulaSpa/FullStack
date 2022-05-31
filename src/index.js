@@ -1,9 +1,10 @@
 import mongoose from 'mongoose';
 import app from './app';
-
+import dotenv from 'dotenv';
 // Server
-const port = process.env.PORT || 9000; //DOTENV NOT INCLUDED
-const MONGO_URL = 'mongodb+srv://julian:julian@cvcluster01.lg4dm.mongodb.net/?retryWrites=true&w=majority'; //DOTENV NOT INCLUDED
+dotenv.config({ path: './.env' });
+const port = process.env.PORT || 1000;
+const MONGO_URL = process.env.DATABASE_URL;
 
 mongoose.connect(
   MONGO_URL,
