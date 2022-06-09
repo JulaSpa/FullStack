@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "946c7527-b0de-49f5-94a4-c4022606b328",
+		"name": "fullStack",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get members",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee\":\"629638bf7e85190ee45a5ffa\",\r\n    \"role\":\"DEV\",\r\n    \"rate\":10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/members",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get employees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstName\": \"nuevo\",\r\n        \"lastName\": \"prueba\",\r\n        \"phone\": 2981726,\r\n        \"email\": \"nuevo@gmail.com\",\r\n        \"password\": \"esteban123\",\r\n        \"active\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/employees",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
