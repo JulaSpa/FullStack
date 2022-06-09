@@ -1,0 +1,15 @@
+.allMembs{
+    display: flex;
+    margin-left: 1%;
+ }
+ .listMarg{
+    margin-left:1%;
+    width: 49.9%;
+}
+.add{
+    display: flex;
+    margin-left: 5%;
+}
+h1{
+    margin-left: 2%;
+}

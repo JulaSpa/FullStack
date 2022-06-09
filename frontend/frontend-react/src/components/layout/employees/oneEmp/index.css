@@ -1,0 +1,22 @@
+.employeeMod{
+    display: flex;
+}
+.employeeModOff{
+    display: none;
+}
+.ulEmployee{
+    list-style: none;
+}
+.listEmployees{
+    border: solid 1px black;
+}
+.del{
+    cursor: pointer;
+}
+.mod{
+    cursor: pointer;
+}
+.imgs{
+    margin-left: 90%;
+    padding-left: 2%;
+}

@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  padding-left: 1%;
+  height: 65px;
+  background-color: rgb(36, 36, 58);
+  color: white;
+
+}
+.title{
+  font-size: 25px;
+  width: 150%;
+}
+
+
+
+
+
+
+
+
+
+

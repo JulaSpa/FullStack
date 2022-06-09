@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    padding-left: 1%;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 1%;
+}
+.formChild{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.err{
+    color: red;
+    font-size: 12px;
+    margin-left: 1%;
+}
+input{
+    width: 200px;
+}
+.input2{
+    width: 10px;
+    cursor: pointer;
+}
+.submit{
+    height: 20px;
+    margin-top: 1%;
+    width: 100px;
+    background-color: green;
+    border-radius: 4px;
+    color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.noErr{
+    color: green;
+    font-size: 12px;
+    margin-left: 1%;
+}

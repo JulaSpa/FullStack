@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    padding-left: 1%;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 1%;
+}
+.formChild{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input{
+    width: 200px;
+}
+.submit{
+    height: 30px;
+    margin-top: 3%;
+    width: 180px;
+    background-color: green;
+    border-radius: 4px;
+    color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}

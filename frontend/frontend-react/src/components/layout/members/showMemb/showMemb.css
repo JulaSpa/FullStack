@@ -1,0 +1,22 @@
+.list{
+    border: solid 1px black;
+}
+.imgs{
+    margin-left: 90%;
+    padding-left: 2%;
+}
+.mod{
+    cursor: pointer;
+}
+.del{
+    cursor: pointer;
+}
+.ulMembers{
+    list-style: none;
+}
+.employeeMod{
+    display: flex;
+}
+.employeeModOff{
+    display: none;
+}
