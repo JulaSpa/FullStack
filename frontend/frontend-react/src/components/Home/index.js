@@ -9,8 +9,8 @@ return(
         <h1>Employee management system example</h1>
         </div>
         <div className='p'>
-        <p>How the title says, this is an example page for handling the employees roles and functions. With this simple CRUD you can add employees, delete or modify them.
-            In the same way you can do the CRUD functions to the members of a "project". All the actions you make will be changing the mongoDB database (In atlas).
+        <p>As the title says, this is an example page for handling the employee's roles and functions. With this simple CRUD, you can add employees, and delete or modify them.
+            In the same way, you can do the CRUD functions to the members of a "project". All your actions will change the MongoDB database (In atlas).
         </p>
         </div>
         <div className='img'>
