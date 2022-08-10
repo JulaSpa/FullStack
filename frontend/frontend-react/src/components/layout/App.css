@@ -1,5 +1,6 @@
 .app {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 1%;
   height: 65px;
   background-color: rgb(36, 36, 58);

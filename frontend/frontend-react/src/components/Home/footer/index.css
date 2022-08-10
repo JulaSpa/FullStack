@@ -7,10 +7,11 @@ height: 50px;
 }
 .ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    justify-content: space-around;
     width: 80%;
     margin-left:5%;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
@@ -18,11 +19,31 @@ a{
 }
 .liFoot{
     display: flex;
-    align-items: center;
-    width: 10%;
 }
 .insta{
     align-self: center;
     margin-left: 5%;
     margin-top: 2%;
+}
+
+@media only screen and (max-width: 450px) {
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .insta{
+        align-self: center;
+        margin-left: 5%;
+        margin-top: 0%;
+
+    }
+    .ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 80%;
+        margin-left:0%;
+        justify-content: space-around;
+    }
 }

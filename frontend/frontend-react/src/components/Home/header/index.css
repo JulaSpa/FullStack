@@ -6,15 +6,40 @@ border-bottom: solid 2px rgb(57, 117, 57);
 display: flex;
 flex-wrap: wrap;
 }
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
 .header1{
-    width: 15%;
+    width: 25%;
     border-right: solid 1px rgb(57, 117, 57);
     border-left: solid 2px rgb(57, 117, 57);
     text-align: center;
 }
 .header2{
-    width: 15%;
+    width: 25%;
     border-right: solid 2px rgb(57, 117, 57);
     border-left: solid 1px rgb(57, 117, 57);
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+
+    .header1{
+        font-size: 15px;
+    }
+    .header2{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+
+    .header1{
+        font-size: 12px;
+    }
+    .header2{
+        font-size: 12px;
+    }
+
+}
+
