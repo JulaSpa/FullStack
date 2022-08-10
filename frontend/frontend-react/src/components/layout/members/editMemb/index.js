@@ -24,7 +24,7 @@ const EditMember =({put, prevMemb})=>{
             };
             try {
                 const response = await fetch(
-                  `${process.env.REACT_APP_API_URL}/members/${memberId}`,
+                  `/members/${memberId}`,
                   putMember
                 );
                 const res = await response.json();

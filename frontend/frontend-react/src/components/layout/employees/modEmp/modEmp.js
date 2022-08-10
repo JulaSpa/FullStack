@@ -39,7 +39,7 @@ const ModEmployee=({editEmp, prevEmp})=>{
         };
         try {
             const response = await fetch(
-              `${process.env.REACT_APP_API_URL}/employees/${EmployeeId}`,
+              `https://jula-express-react.herokuapp.com/employees/${EmployeeId}`,
               putEmployee
             );
             const res = await response.json();

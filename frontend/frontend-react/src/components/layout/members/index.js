@@ -4,10 +4,9 @@ import AddMember from './addMember';
 import './index.css'
 function Members() {
   const [members, setMembers]=useState([])
-  const url=`${process.env.REACT_APP_API_URL}`;
   useEffect(() => {
     try {
-      fetch(`${url}/members`)
+      fetch(`/members`)
         .then((response) => response.json())
         .then((response) => {
           setMembers(response.data);
@@ -22,7 +21,7 @@ function Members() {
    } 
    //DELETE METHOD
    const del =async(id)=>{
-    await fetch(`${url}/members/${id}`,{
+    await fetch(`/members/${id}`,{
       method: 'DELETE'
       }
       )

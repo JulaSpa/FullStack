@@ -20,7 +20,7 @@ const AddMember=({add})=>{
           };
           try {
             const response = await fetch(
-              `${process.env.REACT_APP_API_URL}/members/`,
+              `/members/`,
               postMember
             );
            
