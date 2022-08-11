@@ -20,7 +20,7 @@ const AddMember=({add})=>{
           };
           try {
             const response = await fetch(
-              `/members/`,
+              `https://jula-express-react.herokuapp.com/members/`,
               postMember
             );
            

@@ -26,7 +26,7 @@ const AddEmployee=({add})=>{
           };
           try {
             const response = await fetch(
-              `/employees/`,
+              `https://jula-express-react.herokuapp.com/employees/`,
               postEmployee
             );
             console.log(response.status)

@@ -4,7 +4,9 @@ import dotenv from 'dotenv';
 // Server Test
 dotenv.config({ path: './.env' });
 const port = process.env.PORT || 1000;
-const MONGO_URL = process.env.DATABASE_URL;
+const MONGO_URL = 'mongodb+srv://julian:julian@cvcluster01.lg4dm.mongodb.net/?retryWrites=true&w=majority'
+
+;
 
 mongoose.connect(
   MONGO_URL,

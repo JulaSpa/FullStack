@@ -26,7 +26,7 @@ function Employees() {
    }
    //DELETE METHOD
    const del =async(id)=>{
-    await fetch(`${url}/employees/${id}`,{
+    await fetch(`${url}/${id}`,{
       method: 'DELETE'
       }
       )

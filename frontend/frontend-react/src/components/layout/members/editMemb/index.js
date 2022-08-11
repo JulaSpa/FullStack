@@ -24,7 +24,7 @@ const EditMember =({put, prevMemb})=>{
             };
             try {
                 const response = await fetch(
-                  `/members/${memberId}`,
+                  `https://jula-express-react.herokuapp.com/members/${memberId}`,
                   putMember
                 );
                 const res = await response.json();

@@ -6,7 +6,7 @@ function Members() {
   const [members, setMembers]=useState([])
   useEffect(() => {
     try {
-      fetch(`/members`)
+      fetch(`members`)
         .then((response) => response.json())
         .then((response) => {
           setMembers(response.data);
@@ -21,7 +21,7 @@ function Members() {
    } 
    //DELETE METHOD
    const del =async(id)=>{
-    await fetch(`/members/${id}`,{
+    await fetch(`https://jula-express-react.herokuapp.com/members/${id}`,{
       method: 'DELETE'
       }
       )
