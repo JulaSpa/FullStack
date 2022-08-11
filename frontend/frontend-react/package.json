@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "start": "serve -s build",
+    "start": "node index.js",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
