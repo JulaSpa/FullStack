@@ -24,7 +24,7 @@ const EditMember =({put, prevMemb})=>{
             };
             try {
                 const response = await fetch(
-                  `full-stack-nu-one.vercel.app/members/${memberId}`,
+                  `https://full-stack-2895402ts-julaspa.vercel.app/members/${memberId}`,
                   putMember
                 );
                 const res = await response.json();

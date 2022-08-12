@@ -21,7 +21,7 @@ function Members() {
    } 
    //DELETE METHOD
    const del =async(id)=>{
-    await fetch(`full-stack-nu-one.vercel.app/members/${id}`,{
+    await fetch(`https://full-stack-2895402ts-julaspa.vercel.app/members/${id}`,{
       method: 'DELETE'
       }
       )
