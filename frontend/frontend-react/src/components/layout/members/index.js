@@ -21,7 +21,7 @@ function Members() {
    } 
    //DELETE METHOD
    const del =async(id)=>{
-    await fetch(`https://jula-express-react.herokuapp.com/members/${id}`,{
+    await fetch(`full-stack-nu-one.vercel.app/members/${id}`,{
       method: 'DELETE'
       }
       )

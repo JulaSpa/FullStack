@@ -24,7 +24,7 @@ const EditMember =({put, prevMemb})=>{
             };
             try {
                 const response = await fetch(
-                  `https://jula-express-react.herokuapp.com/members/${memberId}`,
+                  `full-stack-nu-one.vercel.app/members/${memberId}`,
                   putMember
                 );
                 const res = await response.json();

@@ -20,7 +20,7 @@ const AddMember=({add})=>{
           };
           try {
             const response = await fetch(
-              `https://jula-express-react.herokuapp.com/members/`,
+              `full-stack-nu-one.vercel.app/members/`,
               postMember
             );
            

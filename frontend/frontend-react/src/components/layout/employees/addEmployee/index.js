@@ -26,7 +26,7 @@ const AddEmployee=({add})=>{
           };
           try {
             const response = await fetch(
-              `https://jula-express-react.herokuapp.com/employees/`,
+              `full-stack-nu-one.vercel.app/employees/`,
               postEmployee
             );
             console.log(response.status)

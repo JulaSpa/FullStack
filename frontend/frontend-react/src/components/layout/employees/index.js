@@ -7,7 +7,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 
 function Employees() {
   const [employees, setEmployees]=useState([])
-  const url=`https://jula-express-react.herokuapp.com`;
+  const url=`full-stack-nu-one.vercel.app`;
 
   useEffect(() => {
     try {

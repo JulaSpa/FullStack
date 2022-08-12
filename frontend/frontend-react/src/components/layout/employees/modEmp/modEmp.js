@@ -39,7 +39,7 @@ const ModEmployee=({editEmp, prevEmp})=>{
         };
         try {
             const response = await fetch(
-              `https://jula-express-react.herokuapp.com/employees/${EmployeeId}`,
+              `full-stack-nu-one.vercel.app/employees/${EmployeeId}`,
               putEmployee
             );
             const res = await response.json();
