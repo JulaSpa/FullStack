@@ -26,7 +26,7 @@ const AddEmployee=({add})=>{
           };
           try {
             const response = await fetch(
-              `https://full-stack-2895402ts-julaspa.vercel.app/employees/`,
+              `https://full-stack-nu-one.vercel.app/employees/`,
               postEmployee
             );
             console.log(response.status)

@@ -7,7 +7,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 
 function Employees() {
   const [employees, setEmployees]=useState([])
-  const url=`https://full-stack-2895402ts-julaspa.vercel.app`;
+  const url=`https://full-stack-nu-one.vercel.app`;
 
   useEffect(() => {
     try {

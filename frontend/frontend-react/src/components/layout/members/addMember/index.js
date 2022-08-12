@@ -20,7 +20,7 @@ const AddMember=({add})=>{
           };
           try {
             const response = await fetch(
-              `https://full-stack-2895402ts-julaspa.vercel.app/members/`,
+              `https://full-stack-nu-one.vercel.app/members/`,
               postMember
             );
            

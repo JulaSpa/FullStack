@@ -39,7 +39,7 @@ const ModEmployee=({editEmp, prevEmp})=>{
         };
         try {
             const response = await fetch(
-              `https://full-stack-2895402ts-julaspa.vercel.app/employees/${EmployeeId}`,
+              `https://full-stack-nu-one.vercel.app/employees/${EmployeeId}`,
               putEmployee
             );
             const res = await response.json();
