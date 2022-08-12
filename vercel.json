@@ -1,7 +1,7 @@
 {
     "version": 2,
-    "name": "petgram-server-TU_NOMBRE",
-    "alias": ["petgram-api-TU_NOMBRE"],
+    "name": "petgram-server-julian",
+    "alias": ["petgram-api-julian"],
     "builds": [{ "src": "/frontend/frontend-react/index.js", "use": "@vercel/node" }],
     "routes": [{
       "headers": {
