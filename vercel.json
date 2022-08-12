@@ -2,7 +2,7 @@
     "version": 2,
     "name": "julian-full-stack-spataro",
     "alias": ["julian-full-stack-spataro"],
-    "builds": [{ "src": "/frontend/frontend-react/index.js", "use": "@vercel/node" }],
+    "builds": [{ "src": "/frontend/frontend-react/src/index.js", "use": "@vercel/node" }],
     "routes": [{
       "headers": {
           "Access-Control-Allow-Origin": "*",
